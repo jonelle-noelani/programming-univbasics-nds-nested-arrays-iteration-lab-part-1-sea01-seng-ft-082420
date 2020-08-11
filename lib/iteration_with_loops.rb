@@ -11,7 +11,7 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     
-    while src[row_index][element_index].even? do
+    if src[row_index][element_index].even? do
     p src[row_index][element_index]
   end
   element_index += 1
@@ -21,8 +21,8 @@ end
 end
 # end
 
-row_index = 0 
-while row_index < src.count do
-  element_index = 0 
-  while element_index < src[row_index].count do
-    w
+# row_index = 0 
+# while row_index < src.count do
+#   element_index = 0 
+#   while element_index < src[row_index].count do
+#     w
